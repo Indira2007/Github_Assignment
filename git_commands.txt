@@ -1,0 +1,50 @@
+1. git init
+Initializes a new Git repository.
+
+2. git config user.name "Your Name"
+Sets the Git username.
+
+3. git config user.email "your-email@example.com"
+Sets the Git email.
+
+4. git status
+Displays the current repository status.
+
+5. git add .
+Stages all changes for committing.
+
+6. git commit -m "message"
+Records staged changes as a commit.
+
+7. git branch feature
+Creates a new branch named feature.
+
+8. git switch feature
+Switches to the feature branch.
+
+9. git branch
+Displays all local branches.
+
+10. git switch main
+Switches back to the main branch.
+
+11. git merge feature
+Merges the feature branch into main.
+
+12. git log --oneline --graph --all
+Displays commit history and branch relationships.
+
+13. git revert HEAD
+Creates a new commit that reverses the latest commit.
+
+14. git remote add origin URL
+Connects the local repository to GitHub.
+
+15. git remote -v
+Displays configured remote repositories.
+
+16. git push -u origin main
+Pushes the main branch to GitHub.
+
+17. git push -u origin feature
+Pushes the feature branch to GitHub.
